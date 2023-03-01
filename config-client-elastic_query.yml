@@ -18,3 +18,10 @@ user-config:
   username: test
   password: ENC(CrAaiut1x6b2jYqyxnQ85vuXaTpaKpEqhVwFwx0yPimjTOWCbT1Ebfuld1rbq/LP)
   roles: USER
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+security:
+  paths-to-ignore: /api-docs
